@@ -1,23 +1,21 @@
-import { useNavigate } from "react-router-dom"
 import { goods } from "./utils";
-import { goodModel } from "./models/goodModel";
+
 import GoodArticle from "./GoodArticle";
-interface goodInterface {
-    good: goodModel,
-}
+
+import "./MainGoods.css"
 
 export default function MainGoods() {
-    const navigate = useNavigate();
+
 
     return (
-        <section>
-            <h3>Товары</h3>
-            <ul>
+        <section className="main__goods">
+            <h3 className="main__goods-headline">Товары</h3>
+            <ul className="main__goods-ul">
                 {goods.map((good) => {
-                    return <li>
-                        <article>
-                            <GoodArticle good={good}></GoodArticle>
-                        </article>
+                    return <li className="main__goods-ul-li" key={good.name}>
+                        
+                        <GoodArticle good={good}></GoodArticle>
+                       
                     </li>
                 })}
             </ul>

@@ -1,9 +1,14 @@
 export interface goodModel {
-    name: String,
-    desription: String,
-    stock: Number,
+    name: string,
+    desription: string,
+    stock: number,
+    cover: string,
     designer: {
-        name: String,
-        chatUrl: String,
+        name: string,
+        chatUrl: string,
     },
-};
+}
+
+// export interface categoryModel {
+
+// }

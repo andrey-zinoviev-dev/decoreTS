@@ -1,0 +1,18 @@
+.main__goods-ul-li-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+/* .main__goods-ul-li-article:not(:last-of-type) {
+  border-right: 1px solid black;
+
+} */
+
+.article__img {
+  width: 100%;
+  /* border-right: 2px solid black; */
+}

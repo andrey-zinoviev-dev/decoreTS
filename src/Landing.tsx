@@ -1,15 +1,17 @@
 import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Landing() {
     return (
         <>
-            <header></header>
+            <Header />
             <main>
-                <Outlet></Outlet>
+                <Outlet />
             </main>
-            <footer></footer>
+            <Footer />
         </>
 
         // <section></section>
     )
-};
+}
