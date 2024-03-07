@@ -9,6 +9,7 @@
     grid-template-columns: repeat(3,1fr);
     /* gap: 10px; */
     box-sizing: border-box;
+    gap: 15px 0;
 }
 
 .main__goods-ul-li {

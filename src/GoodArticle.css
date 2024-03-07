@@ -5,6 +5,11 @@
   align-items: flex-start;
   box-sizing: border-box;
   padding: 0 25px;
+  gap: 10px;
+}
+
+.main__goods-ul-li-article h3, .main__goods-ul-li-article p {
+  margin: 0;
 }
 
 /* .main__goods-ul-li-article:not(:last-of-type) {
@@ -14,5 +19,6 @@
 
 .article__img {
   width: 100%;
+  border-radius: 9px;
   /* border-right: 2px solid black; */
 }

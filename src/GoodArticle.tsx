@@ -11,9 +11,9 @@ export default function GoodArticle({good}: goodProps) {
     return (
         <article className="main__goods-ul-li-article">
             <h3>{good.name}</h3>
-            <p>{good.desription}</p>
-            <p>{good.stock}</p>
             <img className="article__img" src={good.cover}></img>
+            <p>{good.desription}</p>
+            <p>В наличии: {good.stock}</p>
             <span>Автор - {good.designer.name}</span>
             <button onClick={() => {
                 navigate({
