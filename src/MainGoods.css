@@ -37,3 +37,12 @@
   /* border: 2px solid black; */
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1279px) {
+  .main__goods {
+    padding: 50px 5%;
+  }
+  .main__goods-ul {
+    grid-template-columns: repeat(3,1fr);
+  }
+};
