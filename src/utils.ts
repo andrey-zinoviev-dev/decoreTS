@@ -25,7 +25,7 @@ export const goods:goodModel[] = [
     {
         name: "Товар 2",
         desription: "Описание товара 2, цвет, формы, размэры",
-        stock: 1,
+        stock: 0,
         cover: good2,
         designer: {
             name: "Алекс",

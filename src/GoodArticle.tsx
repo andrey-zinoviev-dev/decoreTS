@@ -1,9 +1,9 @@
 import { goodModel } from "./models/goodModel"
 import { useNavigate } from "react-router-dom"
 import "./GoodArticle.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { icon } from "@fortawesome/fontawesome-svg-core";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import { icon } from "@fortawesome/fontawesome-svg-core";
 interface goodProps {
     good: goodModel,
 }
@@ -33,7 +33,10 @@ export default function GoodArticle({good}: goodProps) {
                         <FontAwesomeIcon className="svg-arrow" icon={faArrowRight} />
                     </div>
                 </div> */}
-                <p>В наличии: {good.stock} <div></div></p>
+                <div className="main__goods-ul-li-article-stock">
+                    <p className="main__goods-ul-li-article-stock-number">В наличии: {good.stock}</p>
+                    <div className={`main__goods-ul-li-article-stock-sign ${good.stock > 0 ? "main__goods-ul-li-article-stock-sign_green" : "main__goods-ul-li-article-stock-sign_red"}`}></div>
+                </div>
                 {/* <span>Автор - {good.designer.name}</span> */}
                 <button className="main__goods-ul-li-article-btn" onClick={() => {
                     navigate({
