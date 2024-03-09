@@ -28,6 +28,7 @@ export default function MainGoods() {
                         </li>
                     })}
                 </ul>
+                <button>Посмотреть все</button>
             </section>
         </>
 
