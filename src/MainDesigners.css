@@ -1,0 +1,11 @@
+.designers ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 240px));
+    gap: 15px;
+}
+
+.designers ul img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+}

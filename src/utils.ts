@@ -1,5 +1,11 @@
 import { goodModel } from "./models/goodModel";
 import { filterModel } from "./models/filterModel";
+import { MediaModel } from "./models/mediaLinkModel";
+import { DesignerModel } from "./models/designerModel";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVk } from "@fortawesome/free-brands-svg-icons/faVk";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import good1 from "./assets/photo_2024-03-07_02-21-30.jpg";
 import good2 from "./assets/photo_2024-03-07_02-21-42.jpg";
 import good3 from "./assets/photo_2024-03-07_02-21-58.jpg";
@@ -78,3 +84,49 @@ export const filters:filterModel[] = [
         name: "Дизайнер"
     }
 ]
+
+export const links:string[] = [
+    "о нас",
+    "воркшопы",
+    "сотрудничество",
+    "адрес шоурума",
+    "доставка и оплата",
+]
+
+export const socialMediaLinks:MediaModel[] = [
+    {
+        link: "ссылка на вк",
+        icon: faVk
+    },
+    {
+        link: "ссылка на тг",
+        icon: faTelegram
+    },
+    {
+        link: "ссылка на ютуб",
+        icon: faYoutube
+    }
+]
+
+export const designers:DesignerModel[] = [
+    {
+        name: "Сергей",
+        cover: avatar1,
+        works: 9
+    },
+    {
+        name: "Алекс",
+        cover: avatar2,
+        works: 1
+    },
+    {
+        name: "Варя- Варюша",
+        cover: avatar3,
+        works: 12
+    },
+    {
+        name: "Саня",
+        cover: avatar4,
+        works: 2
+    }
+];

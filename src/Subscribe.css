@@ -1,0 +1,42 @@
+.subscribe {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding: 75px 0;
+}
+
+.subscribe .container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.subscribe h3 {
+    max-width: 540px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.subscribe form input {
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0 5px 15px;
+}
+
+.subscribe form button {
+    border-radius: 0;
+    border: 2px solid #fea78c;
+
+}
+
+.subscribe form button:hover {
+    /* scale: 1.1; */
+}
