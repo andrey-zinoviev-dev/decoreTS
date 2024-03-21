@@ -36,7 +36,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  font-family: "Manrope", sans-serif;
+  /* font-family: "Manrope", sans-serif; */
+  font-family: "Barlow", sans-serif;
   font-optical-sizing: auto;
 }
 

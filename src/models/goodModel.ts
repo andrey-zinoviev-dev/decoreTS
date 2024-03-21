@@ -3,11 +3,7 @@ export interface goodModel {
     desription: string,
     stock: number,
     cover: string,
-    designer: {
-        name: string,
-        chatUrl: string,
-        avatar: string,
-    },
+    price: number,
 }
 
 // export interface categoryModel {

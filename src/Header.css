@@ -1,11 +1,19 @@
 .header {
-  display: flex;
+  /* display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   gap: 75px;
   box-sizing: border-box;
-    padding: 10px 0;
+    padding: 10px 0; */
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px 0;
 }
 
 .header p, .header ul {
@@ -15,6 +23,7 @@
 
 .header-p {
   /* font-weight: 700; */
+  line-height: 1;
   letter-spacing: 3px;
   font-size: 36px;
   font-family: "Barlow", sans-serif;
@@ -26,17 +35,28 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 25px;
 }
 
 .header__ul-li-btn {
   /* min-width: 120px; */
   box-sizing: border-box;
   padding: 10px 5px;
+  background-color: transparent;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+  color: black;
+}
+
+.header__ul-li-btn-svg {
+  font-size: 30px;
 }
 
 .header__ul-li-btn-p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  line-height: 1;
 }

@@ -13,16 +13,19 @@
 }
 
 .main__goods-ul-li-article-button {
-  padding: 0;
   width: 100%;
-  padding: 25px 10px;
+  padding: 15px 15px;
   box-sizing: border-box;
   border: none;
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .main__goods-ul-li-article:hover {
   border: 2px solid black;
+  /* border: 2px solid #fea78c; */
   translate: 0 -5px;
 }
 
@@ -45,7 +48,7 @@
 
 .main__goods-ul-li-article-img {
   width: 100%;
-  max-width: 180px;
+  /* max-width: 180px; */
   /* border-radius: 9px; */
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -53,7 +56,7 @@
 
 .main__goods-ul-li-article-text {
   display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
     align-items: center;
     width: 100%;
@@ -70,8 +73,8 @@
 }
 
 .main__goods-ul-li-article-text-main-span {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
