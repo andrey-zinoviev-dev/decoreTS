@@ -162,3 +162,9 @@
   background-color: #a6f46a;
   margin: 25px 0 0 0;
 }
+
+@media screen and (max-width: 424px) {
+  .main__goods-ul-li-article-text-main-span {
+    font-size: 16px;
+  }
+}

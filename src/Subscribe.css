@@ -40,3 +40,15 @@
 .subscribe form button:hover {
     /* scale: 1.1; */
 }
+
+@media screen and (max-width: 767px) {
+    .subscribe .container {
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .subscribe .container {
+        max-width: 280px;
+    }
+}

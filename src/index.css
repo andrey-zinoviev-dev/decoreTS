@@ -89,3 +89,24 @@ ul {
     margin: 0 auto;
   };
 }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  };
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 360px;
+    margin: 0 auto;
+  };
+}
+
+@media screen and (max-width: 424px) {
+  .container {
+    max-width: 280px;
+    margin: 0 auto;
+  };
+}

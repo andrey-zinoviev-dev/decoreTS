@@ -16,8 +16,9 @@ export default function Footer() {
       <ul>
         {socialMediaLinks.map((socialLink) => {
           return <li key={socialLink.link}>
-            <a>{socialLink.link}</a>
-            <FontAwesomeIcon icon={socialLink.icon} />
+            <a href={socialLink.link}>
+              <FontAwesomeIcon icon={socialLink.icon} />
+            </a>
           </li>
         })}
       </ul>

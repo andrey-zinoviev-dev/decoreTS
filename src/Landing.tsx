@@ -12,7 +12,7 @@ export default function Landing() {
                 <ul className="main__links">
                     {socialMediaLinks.map((link) => {
                         return <li key={link.link}>
-                            <Link className="main__links-link" to={link.link}>
+                            <Link className="main__links-link" target="_blank" to={link.link}>
                                 <FontAwesomeIcon icon={link.icon} />
                             </Link>
                         </li>

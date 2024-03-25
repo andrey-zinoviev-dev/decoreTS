@@ -78,3 +78,24 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .header__p {
+    font-size: 18px;
+  }
+  .header__ul {
+    gap: 0px;
+  }
+  .header__ul-li-btn {
+    padding: 10px 4px;
+  } 
+  .header__ul p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header nav {
+    display: none;
+  }
+}
