@@ -21,7 +21,7 @@
   margin: 0;
 }
 
-.header-p {
+.header__p {
   /* font-weight: 700; */
   line-height: 1;
   letter-spacing: 3px;
@@ -59,4 +59,22 @@
   align-items: center;
   justify-content: space-between;
   line-height: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__wrapper {
+    align-items: center;
+  }
+  .header__p {
+    font-size: 24px;
+  }
+  .header__ul {
+    gap: 5px;
+  }
+  .header__ul-li-btn-svg {
+    font-size: 18px;
+  }
+  .header__ul p {
+    font-size: 16px;
+  }
 }

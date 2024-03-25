@@ -1,5 +1,5 @@
 import "./Subscribe.css";
-
+import Event from "./Event";
 export default function Subscribe() {
     return (
         <section className="subscribe">
@@ -9,6 +9,7 @@ export default function Subscribe() {
                     <input placeholder="почта, чтобы быть в курсе" name="email"></input>
                     <button>Подписаться</button>
                 </form>
+                <Event />
             </div>
         </section>
     )

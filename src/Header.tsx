@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header">
       <div className="container">
         <div className="header__wrapper">
-          <p className="header-p">DECOREdans</p>
+          <p className="header__p">DECOREdans</p>
           <nav>
             <ul className="header__ul">
               {categories.map((category) => {

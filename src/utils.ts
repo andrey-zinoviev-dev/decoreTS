@@ -158,15 +158,15 @@ export const links:string[] = [
 
 export const socialMediaLinks:MediaModel[] = [
     {
-        link: "ссылка на вк",
+        link: "https://vk.com/id7553806",
         icon: faVk
     },
     {
-        link: "ссылка на тг",
+        link: "https://t.me/Dronis_D",
         icon: faTelegram
     },
     {
-        link: "ссылка на ютуб",
+        link: "https://www.youtube.com/",
         icon: faYoutube
     }
 ]

@@ -1,0 +1,31 @@
+.event {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
+.event__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: flex-start;
+    min-height: 240px;
+    background-size: cover;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    color: white;
+}
+
+.event__wrapper span {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: #fea78c;
+    border-radius: 36px;
+    line-height: 1;
+}
+
+.event__wrapper h3, .event__wrapper p {
+    margin: 0;
+}

@@ -14,7 +14,8 @@
 
 .main__goods-ul-li-article-button {
   width: 100%;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
+  padding: 0 0 15px 0;
   box-sizing: border-box;
   border: none;
   background-color: transparent;
@@ -49,7 +50,7 @@
 .main__goods-ul-li-article-img {
   width: 100%;
   /* max-width: 180px; */
-  /* border-radius: 9px; */
+  border-radius: 5px 5px 0 0;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
@@ -62,6 +63,7 @@
     width: 100%;
     margin: 25px 0 0 0;
     box-sizing: border-box;
+    padding: 0 5px;
     /* padding: 0 25px; */
 }
 
