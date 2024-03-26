@@ -24,9 +24,10 @@
     background-color: #fea78c;
     border-radius: 36px;
     line-height: 1;
+    font-weight: 500;
 }
 
-.event__wrapper h3, .event__wrapper p {
+.event__wrapper h3, .event__wrapper p, .event__wrapper span {
     margin: 0;
     color: white;
 }
