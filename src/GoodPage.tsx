@@ -1,4 +1,4 @@
-import { goodModel } from "./models/goodModel";
+// import { goodModel } from "./models/goodModel";
 
 export default function GoodPage() {
     return (

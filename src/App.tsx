@@ -19,7 +19,9 @@ function App() {
       }
     ]
     }
-  ])
+  ], {
+    basename: "/decoreTS"
+  })
   return (
     <RouterProvider router={router}/>
   )

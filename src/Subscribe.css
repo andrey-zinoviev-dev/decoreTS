@@ -29,6 +29,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 5px 0 5px 15px;
+    background-color: #eeeeee;
 }
 
 .subscribe form button {
